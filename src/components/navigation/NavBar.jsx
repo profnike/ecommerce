@@ -1,15 +1,17 @@
 "use client";
 import Link from "next/link";
-import { useRouter } from 'next/navigation'
 import { usePathname } from "next/navigation";
 import { navLinks } from "../../helpers/data.js";
+import { Bars4Icon } from "@heroicons/react/24/outline";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import MobileNavbar from "./MobileNavbar";
 import MenuItem from "./MenuItem";
 
 export default function NavBar() {
+   const [menuOpen, setMenuOpen] = useState(false);
    const [pageReady, setPageReady] = useState(false);
    const pathname = usePathname();
-   const router = useRouter();
    const pageLink = pathname;
    useEffect(() => {
       setPageReady(true);
@@ -22,25 +24,23 @@ export default function NavBar() {
         }
      }, []);
      return(
-   //   
+     
    
      <header
         className={`sticky top-0 z-30  text-[#0d0630] transition-all duration-300  ${
-           scroll ? "bg-red-400 dark:bg-info" : "bg-red-400 dark:bg-info"
+           scroll ? "bg-red-400" : "bg-yellow-400"
         } `}>
         <div
            className={`flex items-center justify-between py-3 transition-all duration-300 ${
               scroll ? "md:py-3" : "md:py-4 xl:py-5"
            } mx-auto  max-w-[85%]    text-black `}>
-           {/* {pageReady && ( */}
               <Link href="/">
                  <img
-                    src="/Plogo.png"
-                    alt="company"
+                    src="/images/Plogo.png"
+                    alt="company-logo"
                     className="max-h-9 transition-all duration-300 hover:scale-105 active:scale-95 md:max-h-14"
                  />
               </Link>
-           {/* )}  */}
 
            <div className="flex items-center gap-12 ">
               <nav className="hidden lg:block">
@@ -59,19 +59,30 @@ export default function NavBar() {
 
            <div className="hidden lg:flex items-center gap-4">
           <Link href="/contact">
-            {/* <a */}
             <div
               className={`btn btn-red-500 bg-purple-500 hover:bg-purple-800 rounded-full text-sm text-white px-7 py-3 font-normal capitalize ${
                 pageLink == "/contact" ? "bg-purple-800 text-white" : ""
               }`}>
               Contact Us
               </div>
-            {/* </a> */}
           </Link>
         </div>
+        {/* mobile menu start */}
+        <Bars4Icon
+                  className={`w-9 cursor-pointer text-black dark:text-white lg:hidden`}
+                  onClick={() => setMenuOpen(true)}
+               />
+               <motion.div
+                  initial={false}
+                  animate={{ x: menuOpen ? 0 : "100%" }}
+                  transition={{ duration: 0.5 }}
+                  className="fixed bottom-0 left-0 right-0 top-0 z-[99999] h-screen overflow-y-scroll bg-black bg-opacity-90 text-center lg:hidden"
+                  onClick={(e) => e.stopPropagation()}>
+                  <MobileNavbar setMenuOpen={setMenuOpen} pageLink={pageLink} />
+               </motion.div>
+               {/* mobile menu end */}
            </div>
            </header>
-         //   </div>
+         
          )
 }
- 

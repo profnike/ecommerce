@@ -27,4 +27,12 @@ export const navLinks = [
    //     subHeading: "How can we help you? Get in touch using our contact form below.",
    //  },
  ];
+
+
+ export const mediaLinks = [
+   {path: "",title: "LinkedIn",icon: "/icons/linkedin.svg",},
+   { path: "", title: "Instagram", icon: "/icons/instagram.svg" },
+   { path: "", title: "Twitter", icon: "/icons/twitter.svg" },
+   { path: "", title: "Facebook", icon: "/icons/facebook.svg" },
+];
  
