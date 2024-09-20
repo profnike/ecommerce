@@ -2,30 +2,18 @@ export const navLinks = [
     {
        path: "/about",
        title: "About Us",
-       mainHeading: "About Us",
-       subHeading:
-          "Our organization is committed to becoming a leading player in Africa's independent energy generation.",
       
     },
-    {
-       path: "/services",
-       title: "Services",
-       mainHeading: "Services",
-       subHeading:
-          'Ingentia Energies Limited ("IEL") is a special purpose vehicle (SPV) established in 2022 to operate PPL 202  (Egbolom field).'
-          ,
-    },
+   
     {
        path: "/media",
        title: "Media",
     },
-    
-   //  {
-   //     path: "/contact",
-   //     title: "Contact Us",
-   //     mainHeading: "Contact Us",
-   //     subHeading: "How can we help you? Get in touch using our contact form below.",
-   //  },
+    {
+      path: "/services",
+      title: "Services",
+
+     },
  ];
 
 
@@ -36,3 +24,23 @@ export const navLinks = [
    { path: "", title: "Facebook", icon: "/icons/facebook.svg" },
 ];
  
+export const footerLinks = [
+  {
+     heading: "Useful Links",
+     subMenus: [
+        { path: "/about", title: "About Us" },
+        { path: "/services", title: "Services" },
+        { path: "/media", title: "Media" },
+        { path: "/contact", title: "Contact Us" },
+     ],
+  },
+  {
+    heading: "Contact",
+    subMenus: [
+      {path: "",title: "Ogboki, Ijefa State.",icon: "/icons/linkedin.svg",},
+   { path: "", title: "perrez@dmail.com", icon: "/icons/instagram.svg" },
+   { path: "", title: "08077863466", icon: "/icons/twitter.svg" },
+   { path: "", title: "09066345628", icon: "/icons/facebook.svg" },
+    ],
+ },
+];

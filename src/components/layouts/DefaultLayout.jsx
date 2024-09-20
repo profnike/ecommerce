@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Inter } from "next/font/google";
 import "../../app/globals.css";
-import { Footer,NavBar } from "@/components";
+import { Footer,NavBar, Meta } from "@/components";
 import { usePathname } from "next/navigation";
 import { navLinks } from "@/helpers/data";
 
@@ -17,29 +17,28 @@ export const metadata = {
 
 export default function DefaultLayout({ children }) {
   const [pageTitle, setPageTitle] = useState("");
-  const pathname = usePathname();
+  const pathname = usePathname("");
+  
 
   const getPageTitle = () => {
-    navLinks?.map(({ title, path }) => (path == pathname ? setPageTitle(title) : setPageTitle("")));
+    const page = navLinks.find((p) => p.path == pathname);
+    setPageTitle(page ? page?.title : "l");
   };
 
   useEffect(() => {
     getPageTitle();
   }, [pathname]);
   return (
-    // <html lang="en">
     <>
-    <metadata title={pageTitle} />
-      {/* <body className={inter.className}> */}
+      <Meta title={pathname == "/" ? "" : pageTitle} />
       <div className="mx-auto flex min-h-screen max-w-[1800px] flex-col justify-between bg-green-400">
         <div className=" "><NavBar/> 
          {children}
        </div> 
-        <div>Footer</div>
+        <div><Footer/></div>
        
         </div>
         
-        {/* </body> */}
         </>
   
   
