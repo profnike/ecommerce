@@ -28,7 +28,7 @@ export default function NavBar() {
    
      <header
         className={`sticky top-0 z-30  text-[#0d0630] transition-all duration-300  ${
-           scroll ? "bg-red-400" : "bg-yellow-400"
+           scroll && "shadow"
         } `}>
         <div
            className={`flex items-center justify-between py-3 transition-all duration-300 ${
@@ -60,8 +60,8 @@ export default function NavBar() {
            <div className="hidden lg:flex items-center gap-4">
           <Link href="/contact">
             <div
-              className={`btn btn-red-500 bg-purple-500 hover:bg-purple-800 rounded-full text-sm text-white px-7 py-3 font-normal capitalize ${
-                pageLink == "/contact" ? "bg-purple-800 text-white" : ""
+              className={`btn btn-secondary bg-black hover:bg-primary rounded-full text-sm text-white px-7 py-3 font-normal capitalize ${
+                pageLink == "/contact" ? "bg-primary text-white" : ""
               }`}>
               Contact Us
               </div>
@@ -69,7 +69,7 @@ export default function NavBar() {
         </div>
         {/* mobile menu start */}
         <Bars4Icon
-                  className={`w-9 cursor-pointer text-black dark:text-white lg:hidden`}
+                  className={`w-9 cursor-pointer text-black  lg:hidden`}
                   onClick={() => setMenuOpen(true)}
                />
                <motion.div

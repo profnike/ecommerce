@@ -7,6 +7,19 @@ module.exports = {
   ],
   
   theme: {
+    extend:{backgroundColor:
+      { 
+        // "primary": "#02198B",
+         "primary": "#000080",
+        "secondary":"#D4AF37",
+      },
+      textColor:{ 
+        // "primary": "#02198B",
+         "primary": "#000080",
+        "secondary":"#D4AF37",
+      },
+
+    }
     // extend: {
     //   backgroundImage: {
     //     "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

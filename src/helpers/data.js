@@ -1,3 +1,5 @@
+import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline";
+
 export const navLinks = [
     {
        path: "/about",
@@ -37,10 +39,10 @@ export const footerLinks = [
   {
     heading: "Contact",
     subMenus: [
-      {path: "",title: "Ogboki, Ijefa State.",icon: "/icons/linkedin.svg",},
-   { path: "", title: "perrez@dmail.com", icon: "/icons/instagram.svg" },
-   { path: "", title: "08077863466", icon: "/icons/twitter.svg" },
-   { path: "", title: "09066345628", icon: "/icons/facebook.svg" },
+      {title: "Ogboki, Ijefa State.",icon: <MapPinIcon className="w-4 min-w-[1rem]"/>,},
+   {  title: "perrez@dmail.com", icon: <EnvelopeIcon className="w-4 min-w-[1rem]"/> },
+   {  title: "08077863466", icon: <PhoneIcon className="w-4 min-w-[1rem]"/>},
+   {  title: "09066345628", icon: <PhoneIcon className="w-4 min-w-[1rem]"/>},
     ],
  },
 ];

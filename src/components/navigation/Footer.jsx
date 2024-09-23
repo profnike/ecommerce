@@ -10,7 +10,6 @@ export default function Footer  () {
 
    return (
       <footer className="bg-[#373737]">
-         {/* <SlideDown duration={1}> */}
             <div className="mx-auto  max-w-[85%]  py-10 font-light lg:py-14">
                <div className="section-container grid grid-cols-1 justify-between gap-6 md:grid-cols-2 lg:grid-cols-12 lg:gap-12">
                   <div className="col-span-4 w-full text-sm font-light text-[#fdf9ee] md:pr-0 lg:pr-5">
@@ -18,44 +17,32 @@ export default function Footer  () {
                         <img src="/images/Plogo.png" alt="company-logo" className="max-h-9 md:max-h-14" />
                      </Link>
 
-                     <p className="mb-6 mt-3 text-white dark:text-white">
+                     <p className="mb-6 mt-3 text-white ">
                     An online store with the perfect blend of style and flavor, a place where fashion meets gourmet food. Shop the latest trends and indulge in delicious treats, all in one place!
                      </p>
                     
                   </div>
 
-                  {/* <div className="col-span-2 w-full min-w-fit">
-                     {footerLinks?.map(({ heading, subMenus }, i) => (
-                        <div className="flex w-full flex-col" key={ i}>
-                           <h3 className="mb-3 text-sm font-semibold text-white dark:text-white xl:text-base">
-                              {heading}
-                           </h3>
-                           <div className="flex flex-col space-y-2">
-                              {subMenus.map((item, i) => (
-                                 <div key={i}>{item.title}</div>
-                              ))}
-                           </div>
-                        </div>
-                     ))}
-                  </div> */}
                   <div className="col-span-5 w-full min-w-fit lg:flex ">
                      {footerLinks?.map(({ heading, subMenus }, i) => (
                         <div className="flex w-full flex-col mb-10 lg:mb-0" key={ i}>
                            <h3 className="mb-3 text-sm font-semibold text-white xl:text-base">
                               {heading}
                            </h3>
-                           <div className="flex flex-col space-y-2  gap-3 text-white ">
-                              {subMenus.map(({icon,title}, i) => (
-                                 <div key={i} className="flex items-center gap-2">
+                           <div className="flex flex-col space-y-2  gap-3 text-white   ">
+                              {subMenus.map(({path,icon,title}, i) => (
+                                 <div key={i} className={`flex items-center gap-2 ${icon ? "":"hover:underline underline-offset-4 cursor-pointer"}` } >
                                   {icon? <span>
-                                    <img
-                                 src={icon}
-                                 alt={`${title}`}
-                                 className="w-4"
-                              />
+                                    {icon} 
                               </span>:""}
-                                  
-                              {title}
+                             {path ?
+                             <Link href={path} className="inline-block w-fit cursor-pointer text-sm font-light text-white">
+            
+                                 {title}
+                              </Link>
+                              : title
+                                }
+                              
                               </div>
                               ))}
                            </div>
@@ -64,7 +51,7 @@ export default function Footer  () {
                   </div>
 
                   <div className="col-span-3 mt-0 w-full">
-                     <h3 className="mb-6 text-sm font-semibold text-primary-content dark:text-white xl:text-base">
+                     <h3 className="mb-6 text-sm font-semibold text-white xl:text-base">
                         Stay Connected
                      </h3>
 
@@ -84,16 +71,16 @@ export default function Footer  () {
                            </a>
                         ))}
                      </div>
-                     <p className="mb-6 mt-3 text-sm text-white dark:text-white">
+                     <p className="mb-6 mt-3 text-sm text-white">
                         Follow our social media and blog for latest information on our company activities.
                      </p>
                   </div>
                </div>
             </div>
 
-            <div className="section-container flex flex-col-reverse items-center justify-between gap-2 border-t-[0.5px] border-white py-6 font-light md:flex-row">
+            <div className="mx-auto  max-w-[85%] section-container flex flex-col-reverse items-center justify-between gap-2 border-t-[0.5px] border-white py-6 font-light md:flex-row">
                <div className="flex items-center gap-2 text-sm">
-                  <p className="text-center text-[#fdf9ee] dark:text-white">
+                  <p className="text-center text-[#fdf9ee]">
                      &copy; {year} Perrez. All rights reserved.
                   </p>
                   {/* 

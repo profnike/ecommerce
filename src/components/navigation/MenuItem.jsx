@@ -13,7 +13,7 @@ const MenuItem = ({ item: { path, title }, pageLink, home }) => {
             className={`${
                   pageLink?.includes(path) && !home
                   ? "font-[500] "
-                  : "text-black hover:text-green-600 "
+                  : "text-black hover:text-primary hover:font-[500] "
              } relative flex items-center gap-2 text-sm 2xl:text-[15px]`}
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}>
@@ -35,7 +35,7 @@ const MenuItem = ({ item: { path, title }, pageLink, home }) => {
             }}
             transition={{ duration: 0.3 }}
 
-           className=" absolute -bottom-3 left-0 right-0 h-[3px] w-full bg-green-600"
+           className=" absolute -bottom-3 left-0 right-0 h-[3px] w-full bg-primary"
          />
     
       </li>
