@@ -1,22 +1,23 @@
 import React from "react";
 import Link from "next/link";
-import {  XIcon } from "@heroicons/react/24/outline";
+ //import {  XIcon } from "@heroicons/react/24/outline";
 import { navLinks, mediaLinks } from "../../helpers/data";
 
 export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
   return (
+    
     <aside className="flex flex-col gap-6 py-8 px-4">
          <div className="mb-4 mt-2 flex  justify-end px-2">
             <span
                className="flex h-9 w-9 items-center justify-center rounded-full bg-white"
                onClick={() => setMenuOpen(false)}>
-                <XIcon className="w-6 cursor-pointer" />
-                {/* <div className="cursor-pointer">x</div> */}
+                {/* <XIcon className="w-6 cursor-pointer" /> */}
+                <div className="w-6 cursor-pointer">x</div>
             </span>
          </div>
 
       <nav>
-        <ul className="flex items-center flex-col gap-4">
+         <ul className="flex items-center flex-col gap-4">
           {navLinks?.map(({ path, title }, i) =>
             (
               <Link href={path} key={i}>
@@ -57,11 +58,11 @@ export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
                            </a>
                         ))}
                      </div>
-        </ul>
+        </ul> 
       </nav>
 
       
-    </aside>
+     </aside>
   );
 };
 

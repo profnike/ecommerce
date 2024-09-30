@@ -5,8 +5,9 @@ import { navLinks } from "../../helpers/data.js";
 import { Bars4Icon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import MobileNavbar from "./MobileNavbar";
+//import MobileNavbar from "./";
 import MenuItem from "./MenuItem";
+import { MobileNavbar } from "../index.js";
 
 export default function NavBar() {
    const [menuOpen, setMenuOpen] = useState(false);
@@ -79,6 +80,7 @@ export default function NavBar() {
                   className="fixed bottom-0 left-0 right-0 top-0 z-[99999] h-screen overflow-y-scroll bg-black bg-opacity-90 text-center lg:hidden"
                   onClick={(e) => e.stopPropagation()}>
                   <MobileNavbar setMenuOpen={setMenuOpen} pageLink={pageLink} />
+                
                </motion.div>
                {/* mobile menu end */}
            </div>

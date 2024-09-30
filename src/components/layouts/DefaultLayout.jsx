@@ -2,9 +2,11 @@
 import { useEffect, useState } from "react";
 import { Inter } from "next/font/google";
 import "../../app/globals.css";
-import { Footer,NavBar, Meta } from "@/components";
+import { Footer, Meta, NavBar } from "@/components";
 import { usePathname } from "next/navigation";
 import { navLinks } from "@/helpers/data";
+import { Nav } from "..";
+
 
 
 const inter = Inter({ subsets: ["latin"], width:["100%"] });
@@ -33,10 +35,13 @@ export default function DefaultLayout({ children }) {
       <Meta title={pathname == "/" ? "" : pageTitle} />
       <div className="mx-auto flex min-h-screen max-w-[1800px] flex-col justify-between ">
         <div className=" ">
-          <NavBar/> 
+        <NavBar/>
          {children}
        </div> 
-        <div><Footer/></div>
+        <div>
+         <Footer/>
+          
+          </div>
        
         </div>
         

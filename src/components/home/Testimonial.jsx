@@ -41,7 +41,7 @@ export default function Testimonial  () {
               <ArrowLeftIcon className="w-7 h-7 " />
             </div>
             <div
-              className=" -right-7 rounded-full top-[40%] bg-primary bg-opacity-10 shadow-sm cursor-pointer text-primary border-secondary w-fit p-3"
+              className=" -right-7 rounded-full top-[40%] bg-primary bg-opacity-10 shadow-sm cursor-pointer text-primary border-secondary w-fit p-3 hover:p-4"
               onClick={() => handleClick(currentIndex === testimonialData.length - 1 ? 0 : currentIndex + 1)}>
               <ArrowRightIcon className="w-7 h-7 " />
             </div>

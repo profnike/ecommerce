@@ -3,6 +3,7 @@
 export { default as NavBar } from "./navigation/NavBar";
 export { default as Meta } from "./navigation/Meta";
 export { default as Footer } from "./navigation/Footer";
+export { default as MobileNavbar } from "./navigation/MobileNavBar";
 
 
 // Layouts

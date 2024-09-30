@@ -1,4 +1,6 @@
-import { Banner, HeroSection, Services, Testimonial } from "@/components";
+ "use client"
+ import { Banner, HeroSection, Services, Testimonial } from "@/components";
+ 
 
 
 export default function Home() {

@@ -51,27 +51,31 @@ export const services = [
    {
      title: "Delish Dishes",
      text: "At Perrez we pride ourselves on using the finest ingredients to create meals that satisfy every palate.",
-     image:"/images/Delish-dish.jfif"
+      image:"/images/Delish-dish.jpg"
    },
    {
      title: "Thrift wears",
      text: "we specialize in offering quality thrift pieces, ranging from timeless classics to trendy finds, ensuring there's something for every fashion lover.",
-    image:"/images/Thrift-wears.jfif"
+     image:"/images/Thrift-wears.jpg"
+    //image:""
    },
    {
      title: "Brand Booster",
      text: "we amplify your brand's presence to drive growth",
-     image:"/images/Plogo.png"
+     image:"/images/Brand-booster.jpg"
+     //image:""
    },
    {
      title: "Faithful Insights",
      text: "we share uplifting and thought-provoking content that inspires faith and spirituality.",
-   image:"/images/Delish-dish.jfif"
+    image:"/images/Faithful.jpg"
+     //image:""
    },
    {
     title: "Shein",
     text: "we make shopping from Shein effortless and enjoyable",
-      image:"/images/Delish-dish.jfif"
+       image:"/images/Shein.jpg"
+      //image:""
   },
  ];
  export const testimonialData = [
