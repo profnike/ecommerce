@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import {  XIcon } from "@heroicons/react/24/outline";
 import { navLinks, mediaLinks } from "../../helpers/data";
 
 export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
@@ -9,7 +10,8 @@ export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
             <span
                className="flex h-9 w-9 items-center justify-center rounded-full bg-white"
                onClick={() => setMenuOpen(false)}>
-                <div className="cursor-pointer">x</div>
+                <XIcon className="w-6 cursor-pointer" />
+                {/* <div className="cursor-pointer">x</div> */}
             </span>
          </div>
 

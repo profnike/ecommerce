@@ -6,10 +6,8 @@ import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline
 export default function Footer  () {
    const year = new Date().getFullYear();
 
-   const contactStyles = "flex items-center gap-3 text-white";
-
    return (
-      <footer className="bg-[#373737]">
+      <footer className="bg-black">
             <div className="mx-auto  max-w-[85%]  py-10 font-light lg:py-14">
                <div className="section-container grid grid-cols-1 justify-between gap-6 md:grid-cols-2 lg:grid-cols-12 lg:gap-12">
                   <div className="col-span-4 w-full text-sm font-light text-[#fdf9ee] md:pr-0 lg:pr-5">
@@ -31,8 +29,9 @@ export default function Footer  () {
                            </h3>
                            <div className="flex flex-col space-y-2  gap-3 text-white   ">
                               {subMenus.map(({path,icon,title}, i) => (
-                                 <div key={i} className={`flex items-center gap-2 ${icon ? "":"hover:underline underline-offset-4 cursor-pointer"}` } >
-                                  {icon? <span>
+                                 // <div key={i} className={`flex items-center gap-2 ${icon ? "":"hover:underline underline-offset-4 cursor-pointer"}` } >
+                                 <div key={i} className={`flex items-center gap-2 ${icon ? "":"hover:underline underline-offset-4  decoration-secondary cursor-pointer"}` } >
+                                 {icon? <span>
                                     {icon} 
                               </span>:""}
                              {path ?

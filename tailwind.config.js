@@ -7,17 +7,14 @@ module.exports = {
   ],
   
   theme: {
-    extend:{backgroundColor:
-      { 
+    extend:{
+      colors: {
+        "primary":"#040273",
         // "primary": "#02198B",
-         "primary": "#000080",
+         //"primary": "#000080",
         "secondary":"#D4AF37",
       },
-      textColor:{ 
-        // "primary": "#02198B",
-         "primary": "#000080",
-        "secondary":"#D4AF37",
-      },
+      
 
     }
     // extend: {

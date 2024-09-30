@@ -27,7 +27,7 @@ export default function NavBar() {
      
    
      <header
-        className={`sticky top-0 z-30  text-[#0d0630] transition-all duration-300  ${
+        className={`sticky top-0 z-100 shadow  text-[#0d0630] bg-white transition-all duration-300  ${
            scroll && "shadow"
         } `}>
         <div
@@ -60,7 +60,7 @@ export default function NavBar() {
            <div className="hidden lg:flex items-center gap-4">
           <Link href="/contact">
             <div
-              className={`btn btn-secondary bg-black hover:bg-primary rounded-full text-sm text-white px-7 py-3 font-normal capitalize ${
+              className={`btn btn-secondary bg-black hover:bg-primary hover:border hover:border-2 hover:border-secondary rounded-full text-sm text-white px-7 py-3 font-normal capitalize ${
                 pageLink == "/contact" ? "bg-primary text-white" : ""
               }`}>
               Contact Us
