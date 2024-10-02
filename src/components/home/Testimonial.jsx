@@ -15,13 +15,11 @@ export default function Testimonial  () {
     setCurrentIndex(index);
   };
   return (
-    <div className="bg-primary bg-opacity-5 p-10 md:py-28">
-        {/* <img src="/icons/quote" alt="" className="w-12 h-12 rounded-full"/> */}
-      <div className="max-w-[90%] lg:max-w-[80%] mx-auto ">
+    <div className="bg-primary bg-opacity-5 ">
+      <div className="max-w-[90%] lg:max-w-[80%] mx-auto p-10 md:py-28 ">
         <div className="shadow-2xl rounded-2xl p-10 md:max-w-[50%] m-auto bg-white z-0 ">
         <img src="/icons/quote.png" alt="" className="w-12 h-12 rounded-full text-red-300"/>
           {testimonialData.length && (
-            // <motion.div initial={{ x: 0 }} animate={{ x: 10 }} exit={{ opacity: 0 }}>
              <div >
       <span className="leading-7 text-black">{testimony.text}</span>
 
@@ -32,7 +30,7 @@ export default function Testimonial  () {
         </div>
       </div>
     </div>
-            // </motion.div>
+           
           )}
           <div className="flex justify-between mt-10">
             <div

@@ -5,7 +5,7 @@ import { Card } from "..";
 export default function Services() {
   return (
     < section className="bg-primary">
-     <div className="py-10 md:py-20 max-w-[85%] z-10  mx-auto text-[#2E2E2E]">
+     <div className="py-10 md:py-14 max-w-[85%] z-10  mx-auto text-[#2E2E2E]">
       <div className="flex flex-col items-center justify-center mb-7 md:mb-14 ">
       <h2 className="text-xl md:text-3xl lg:text-4xl mb-2 text-white">
         Our Services

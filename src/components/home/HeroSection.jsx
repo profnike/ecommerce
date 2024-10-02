@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function HeroSection() {
   return (
     <div className="mx-auto  max-w-[85%] z-10 ">
-      <div className="flex flex-col md:flex-row justify-between my-2 md:my-20 md:h-[70vh] space-x-5 md:mb-40 mb-10 md:items-center">
+      <div className="flex flex-col md:flex-row justify-between  md:my-20 md:h-[70vh] space-x-5  mb-10 md:items-center">
       <div className="my-10 md:w-1/2">
         <div>
         
