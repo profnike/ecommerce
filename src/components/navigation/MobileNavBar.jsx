@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
  //import {  XIcon } from "@heroicons/react/24/outline";
 import { navLinks, mediaLinks } from "../../helpers/data";
+import { Button } from "..";
 
 export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
   return (
@@ -18,13 +19,23 @@ export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
 
       <nav>
          <ul className="flex items-center flex-col gap-4">
+         <Link href="/" >
+                <div
+                  className={`${
+                    pageLink == "/home" && "text-accent font-semibold"
+                  } text-white text-xl  capitalize`}
+                  onClick={() => setMenuOpen(false)}>
+                  Home
+                </div>
+              </Link>
+          
           {navLinks?.map(({ path, title }, i) =>
             (
               <Link href={path} key={i}>
                 <div
                   className={`${
                     pageLink == path && "text-accent font-semibold"
-                  } text-white text-xl hover:text-green-500 capitalize`}
+                  } text-white text-xl  capitalize`}
                   onClick={() => setMenuOpen(false)}>
                   {title}
                 </div>
@@ -32,14 +43,8 @@ export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
             )
           )}
           <div className="flex items-center gap-4">
-          <Link href="/contact">
-            <div
-              className={`btn btn-red-500 bg-purple-500 hover:bg-purple-800 rounded-full text-sm text-white px-7 py-3 font-normal capitalize ${
-                pageLink == "/contact" ? "bg-purple-800 text-white" : ""
-              }`}>
-              Contact Us
-              </div>
-          </Link>
+          <Button link={"/contact"} text={"Contact Us"} mobile={true}/>
+          
         </div>
         <div className="flex items-center justify-center md:gap-3  ">
                         {mediaLinks?.map(({ path, title, icon }, i) => (

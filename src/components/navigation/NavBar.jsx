@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 //import MobileNavbar from "./";
 import MenuItem from "./MenuItem";
-import { MobileNavbar } from "../index.js";
+import { Button, MobileNavbar } from "../index.js";
 
 export default function NavBar() {
    const [menuOpen, setMenuOpen] = useState(false);
@@ -59,14 +59,7 @@ export default function NavBar() {
            </div>
 
            <div className="hidden lg:flex items-center gap-4">
-          <Link href="/contact">
-            <div
-              className={`btn btn-secondary bg-black hover:bg-primary hover:border hover:border-2 hover:border-secondary rounded-full text-sm text-white px-7 py-3 font-normal capitalize ${
-                pageLink == "/contact" ? "bg-primary text-white" : ""
-              }`}>
-              Contact Us
-              </div>
-          </Link>
+          <Button link={"/contact"} text={"Contact Us"}/>
         </div>
         {/* mobile menu start */}
         <Bars4Icon

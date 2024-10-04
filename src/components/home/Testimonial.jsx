@@ -16,7 +16,7 @@ export default function Testimonial  () {
   };
   return (
     <div className="bg-primary bg-opacity-5 ">
-      <div className="max-w-[90%] lg:max-w-[80%] mx-auto p-10 md:py-28 ">
+      <div className="max-w-[90%] lg:max-w-[80%] mx-auto p-20 md:py-28 ">
         <div className="shadow-2xl rounded-2xl p-10 md:max-w-[50%] m-auto bg-white z-0 ">
         <img src="/icons/quote.png" alt="" className="w-12 h-12 rounded-full text-red-300"/>
           {testimonialData.length && (
@@ -41,7 +41,7 @@ export default function Testimonial  () {
             <div
               className=" -right-7 rounded-full top-[40%] bg-primary bg-opacity-10 shadow-sm cursor-pointer text-primary border-secondary w-fit p-3 hover:p-4"
               onClick={() => handleClick(currentIndex === testimonialData.length - 1 ? 0 : currentIndex + 1)}>
-              <ArrowRightIcon className="w-7 h-7 " />
+              <ArrowRightIcon className="w-7 md:h-7 " />
             </div>
           </div>
         </div>
