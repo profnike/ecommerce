@@ -53,13 +53,13 @@ export const services = [
      title: "Plated ng",
      text: "At Perrez we pride ourselves on using the finest ingredients to create meals that satisfy every palate.",
       image:"/images/Delish-dish.jpg",
-      path:"/services/plated-ng"
+      path:"/services/plated_ng"
    },
    {
      title: "Thrift wears",
      text: "we specialize in offering quality thrift pieces, ranging from timeless classics to trendy finds, ensuring there's something for every fashion lover.",
      image:"/images/Thrift-wears.jpg",
-      path:"/services/thrift"
+      path:"/services/thrift&essentials"
    },
    {
      title: "Brand Booster",
