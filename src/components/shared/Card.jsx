@@ -11,7 +11,7 @@ export default function Card  ({services:{title,text,image,path}}) {
       
         <div
           className= "  rounded-lg flex  p-2  ">
-         <div><img src={image} alt={title} className="w-10 h-10 mr-4"/></div><span className=" font-bold">{title}</span>
+         <div>{image?<img src={image} alt={title} className="w-10 h-10 mr-4"/>:""}</div><span className=" font-bold">{title}</span>
         </div>
        
         <div className="flex flex-col items-start  ">
@@ -21,7 +21,7 @@ export default function Card  ({services:{title,text,image,path}}) {
       {pathname==="/services"?
       <Link href={path} className="mt-4">
             <div
-              className={`btn btn-secondary bg-black hover:bg-primary hover:border hover:border-2 hover:border-secondary border border-2 border-secondary hover:px-4 rounded-full text-sm text-white px-3 py-2 font-normal capitalize w-fit ${
+              className={`btn btn-secondary bg-black hover:bg-primary  hover:border-2 hover:border-secondary border border-2 border-secondary hover:px-4 rounded-full text-sm text-white px-3 py-2 font-normal capitalize w-fit ${
                  "bg-primary text-white"
               }`}>
               View more

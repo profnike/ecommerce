@@ -93,29 +93,29 @@ export const services = [
   },
 ];
 
-export const stepsData = [
+export const sheinSteps = [
   {
-    step: "Step 1",
+    title: "Step 1",
     text: "Contact Perrez to get the current price list of items on our menu",
     
   },
   {
-    step: "step 2",
+    title: "step 2",
     text: "Choose your desired combination from our list, you can also make your own combo or request for a meal if its not on the list.",
    
   },
   {
-    step: "Step 3",
+    title: "Step 3",
     text: "Send a message of what you want and delivery details at least a day before it is needed",
     
   },
   {
-    step: "Step 4",
+    title: "Step 4",
     text: "Make payment",
     
   },
   {
-    step: "Step 5",
+    title: "Step 5",
     text: "Sit back, relax while we handle the rest",
     
   },

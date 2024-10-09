@@ -1,5 +1,5 @@
-import { Button, Servicesheader, SingleService } from "@/components";
-import {  stepsData, platedServices } from "../../helpers/data";
+import {  Servicesheader, SingleService } from "@/components";
+import {  platedServices } from "../../helpers/data";
 
 
 export default function Plated() {
