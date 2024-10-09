@@ -15,7 +15,7 @@ export default function Services() {
         Our Services
         </h2>
 
-      <div className="flex justify-center text-center align-center items-center h-1 w-[100px] bg-secondary"></div> 
+      <div className=" h-1 w-24 bg-secondary"></div> 
       </div>
       }
       <div className={`grid gap-6 justify-between w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ${pathname==="/services"?"":"lg:grid-cols-4"}`}>

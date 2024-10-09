@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-    <div className="mx-auto  max-w-[85%]  ">
+    <div className="mx-auto  max-w-[85%]">
 <div className="mb-14 md:mb-24">
       <div className="flex flex-col items-start md:flex-row   md:items-center justify-between gap-3 px-8 md:px-14 py-10 md:py-20  bg-primary bg-opacity-10 rounded-b-[10%]   md:rounded-b-[30%] ">
         <div className="md:w-1/3  flex flex-col justify-center items-start  ">
