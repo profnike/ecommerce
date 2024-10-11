@@ -20,3 +20,4 @@ export { default as Card } from "./shared/Card";
 export { default as Button } from "./shared/Button";
 export { default as Servicesheader } from "./shared/Servicesheader";
 export { default as SingleService } from "./shared/SingleService";
+export { default as SecondSingleService } from "./shared/SecondSingleService";

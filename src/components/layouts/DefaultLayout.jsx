@@ -24,7 +24,7 @@ export default function DefaultLayout({ children }) {
 
   const getPageTitle = () => {
     const page = navLinks.find((p) => p.path == pathname);
-    setPageTitle(page ? page?.title : "l");
+    setPageTitle(page ? page?.title : "Perrez - Where Style Meets Taste");
   };
 
   useEffect(() => {
