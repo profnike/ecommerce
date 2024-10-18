@@ -42,7 +42,7 @@ export default function Shein() {
   firstParag="At Perrez, we make shopping from Shein easier and more convenient by handling everything from payment to delivery. Whether you're looking to update your wardrobe or find the latest fashion trends, we take the hassle out of international purchases, offering secure payment solutions and reliable delivery right to your doorstep." 
   secondParag="No more worries about payment methods or shipping issues—simply choose your favorite Shein items, and let us take care of the rest! Simply follow these steps:"
   steps={sheinSteps}
-  image="/images/shein.jpg"
+  image="/images/shein.png"
   upper="Shein"
   lower="Delivery"/>
     

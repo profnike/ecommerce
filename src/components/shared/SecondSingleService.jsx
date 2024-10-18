@@ -7,6 +7,13 @@ export default function SecondSingleService({firstParag,secondParag,steps,image,
   return (
     <div>
         <Servicesheader bgImage={image} upperText={upper} lowerText={lower} />
+        <div className="flex flex-col items-center justify-center mb-5  ">
+      <h2 className="text-xl md:text-3xl lg:text-4xl mb-2">
+      Our Focus
+        </h2>
+
+      <div className=" h-1 w-24 bg-primary"></div> 
+      </div>
         <div className="text-center w-[80%] md:w-[70%] mx-auto mb-14">
           <p className="mb-2">{firstParag}</p>
         <p>{secondParag}</p>

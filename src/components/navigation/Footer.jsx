@@ -77,32 +77,26 @@ export default function Footer  () {
                </div>
             </div>
 
-            <div className="mx-auto  max-w-[85%] section-container flex flex-col-reverse items-center justify-between gap-2 border-t-[0.5px] border-white py-6 font-light md:flex-row">
-               <div className="flex items-center gap-2 text-sm">
+            <div className="mx-auto  max-w-[85%] section-container items-center border-t-[0.5px] border-white py-6 font-light md:flex-row">
+               <div className="text-center gap-2 text-sm">
                   <p className="text-center text-[#fdf9ee]">
                      &copy; {year} Perrez. All rights reserved.
                   </p>
-                  {/* 
-                  <p className="hidden text-[#fdf9ee] dark:text-white md:block">
-                     Developed by{" "}
+                  
+                  <p className="hidden text-[#fdf9ee] md:block">
+                    Designed and Developed by{" "}
                      <a
-                        href="https://www.radartrail.com/"
+                        href="https://wa.me/2348099198567?text=Hello%20devKhad%2C%20I%20would%20like%20to%20build%20a%20website%2E
+"
                         target="_blank"
                         rel="noreferrer"
-                        className="inline text-base text-primary">
-                        Radartrail
+                        className="inline text-base text-secondary">
+                        devKhad
                      </a>
-                  </p> */}
+                  </p>
                </div>
 
-               <div className="flex items-center gap-3 text-sm text-white">
-                  <Link href="/policy" className="transition-colors duration-300 hover:text-primary">
-                     Privacy Policy
-                  </Link>
-                  {/* <Link href="#" className="transition-colors duration-300 hover:text-primary">
-                     Modern Slavery Statement
-                  </Link> */}
-               </div>
+               
             </div>
          {/* </SlideDown> */}
       </footer>

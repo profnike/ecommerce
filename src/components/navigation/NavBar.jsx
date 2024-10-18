@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { navLinks } from "../../helpers/data.js";
+import { navLinks,mediaLinks  } from "../../helpers/data.js";
 import { Bars4Icon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
@@ -58,9 +58,30 @@ export default function NavBar() {
              
            </div>
 
-           <div className="hidden lg:flex items-center gap-4">
+           {/* <div className="hidden lg:flex items-center gap-4">
           <Button link={"/contact"} text={"Contact Us"}/>
-        </div>
+        </div> */}
+        <div className="hidden lg:flex items-center gap-4">
+         <div className="flex items-center md:gap-3 text-black ">
+           
+                        {mediaLinks?.map(({ path, title, icon }, i) => (
+                          
+                           <div
+                              key={i}
+                              target="_blank"
+                              href={path}
+                              className="mr-2 cursor-pointer md:mr-0 p-1 border-2 bg-primary rounded-full "
+                              rel="noreferrer">
+                              <img
+                                 src={icon}
+                                 alt={`Perrez ${title}`}
+                                 color="orange"
+                                 className="w-4 fill-black text-black transition-transform duration-300 hover:-translate-y-1 hover:scale-110 md:w-6"
+                              />
+                           </div>
+                        ))}
+                     </div>
+                     </div>
         {/* mobile menu start */}
         <Bars4Icon
                   className={`w-9 cursor-pointer text-black  lg:hidden`}

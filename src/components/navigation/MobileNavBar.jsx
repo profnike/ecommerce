@@ -42,10 +42,10 @@ export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
               </Link>
             )
           )}
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
           <Button link={"/contact"} text={"Contact Us"} mobile={true}/>
           
-        </div>
+        </div> */}
         <div className="flex items-center justify-center md:gap-3  ">
                         {mediaLinks?.map(({ path, title, icon }, i) => (
                            <a

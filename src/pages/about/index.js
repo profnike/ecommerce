@@ -1,11 +1,14 @@
-import { Testimonial } from "@/components";
-import Image from "next/image";
+import { Button, Header, Testimonial } from "@/components";
+import { mediaLinks  } from "../../helpers/data.js";
 
 export default function About() {
   return (
     <>
-    <div className="mx-auto  max-w-[85%]">
-<div className="mb-14 md:mb-24">
+    <div className="mx-auto  max-w-[85%] ">
+    <div className="mb-14 md:mb-24">
+    <Header LeftTitle="About" RightTitle="Perrez" Intro="Welcome to Perrez, your one-stop online store for quality food and stylish clothing. We’re passionate about providing you with a convenient and seamless shopping experience, offering a range of carefully selected products that meet your everyday needs."/>
+</div>
+ {/* <div className="mb-14 md:mb-24">
       <div className="flex flex-col items-start md:flex-row   md:items-center justify-between gap-3 px-8 md:px-14 py-10 md:py-20  bg-primary bg-opacity-10 rounded-b-[10%]   md:rounded-b-[30%] ">
         <div className="md:w-1/3  flex flex-col justify-center items-start  ">
         
@@ -18,7 +21,8 @@ export default function About() {
                     <p className=" ">Welcome to Perrez, your one-stop online store for quality food and stylish clothing. We’re passionate about providing you with a convenient and seamless shopping experience, offering a range of carefully selected products that meet your everyday needs.</p>
                   </div>
                   </div>
-      </div>
+      </div>  */}
+     
                   
       <div className="flex flex-col-reverse lg:flex-row  md:justify-between   lg:space-x-5 lg:items-start">
      
@@ -28,12 +32,33 @@ export default function About() {
              </p>
 
                <p className="  mt-4">Lorezm ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       
+               {/* <div className="flex items-center md:gap-3 text-black ">
+           
+           {mediaLinks?.map(({ path, title, icon }, i) => (
+             
+              <div
+                 key={i}
+                 target="_blank"
+                 href={path}
+                 className="mr-2 cursor-pointer md:mr-0 p-1 border-2 bg-primary rounded-full mt-4 "
+                 rel="noreferrer">
+                 <img
+                    src={icon}
+                    alt={`Perrez ${title}`}
+                    color="orange"
+                    className="w-4 fill-black text-black transition-transform duration-300 hover:-translate-y-1 hover:scale-110 md:w-6"
+                 />
+              </div>
+           ))}
+        </div> */}
+        <div className="mt-4">
+         <Button link={"/contact"} text={"Contact Perrez"} />
+         </div>
 
       </div>
       <div className="w-full lg:w-1/2 mb-4 lg:mb-0  ">
       <img src="/images/Banner-pix.jpg" alt="herosection-image" className="w-full "/>
-      <div className="flex flex-col bg-primary text-white font-bold  w-full text-center ">
+      <div className="flex flex-col bg-black text-white font-bold  w-full text-center p-2 ">
         <p>Nkem Adeboye</p>
         <p className="text-secondary">Owner</p>
       </div>

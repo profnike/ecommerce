@@ -7,20 +7,25 @@ export const navLinks = [
       
     },
    
-    {
-       path: "/media",
-       title: "Media",
-    },
+    // {
+    //    path: "/media",
+    //    title: "Media",
+    // },
     {
       path: "/services",
       title: "Services",
+
+     },
+     {
+      path: "/contact",
+      title: "Contact Us",
 
      },
  ];
 
 
  export const mediaLinks = [
-   {path: "",title: "LinkedIn",icon: "/icons/linkedin.svg",},
+   {path: "",title: "LinkedIn",icon: "/icons/linkedin.svg", },
    { path: "", title: "Instagram", icon: "/icons/instagram.svg" },
    { path: "", title: "Twitter", icon: "/icons/twitter.svg" },
    { path: "", title: "Facebook", icon: "/icons/facebook.svg" },
@@ -221,35 +226,35 @@ export const platedServices = [
 export const thriftServices = [
   {
     title:"Thrift Sales",
-    firstParagraph:"At Plated_ng, food is our specialty, and we’re here to satisfy your cravings with fresh, flavorful dishes delivered right to your door. From hearty traditional favorites to new culinary delights, we are dedicated to providing high-quality meals that you’ll love.",
-    secondParagraph:"We offer meal options for any time of the day—whether it's breakfast, lunch, or dinner. Custom meal packages can be created to suit your preferences. Plated_ng also provides the option to send food packages to your loved ones, complete with personalized, heartfelt notes. Simply follow these steps:",
-    thirdParagraph:"At Plated_ng, we carefully prepare each meal with attention to detail, so we do not accept same-day delivery requests to ensure the highest quality in every order.",
+    firstParagraph:"We carefully select every item to ensure it meets our quality and style standards. From timeless classics to bold statement pieces, our inventory is packed with unique finds that are also affordable.",
+    secondParagraph:"We offer a wide range of styles, sizes, and categories to suit all tastes. Whether you're hunting for vintage dresses, trendy tops, chic jackets, or casual streetwear, we’ve got something for everyone. Simply follow these steps:",
+    thirdParagraph:"",
     link:"/contact", 
     text:"Order Now",
     stepData:[
       {
         step: "Step 1",
-        text: "Contact Perrez to get the current price list of items on our menu",
+        text: "Contact Perrez to have your contact saved on our whatsapp list ",
         
       },
       {
         step: "Step 2",
-        text: "Choose your desired combination from our list, you can also make your own combo or request for a meal if its not on the list.",
+        text: "Check our whatsapp updates regularly for the information on the day for sales of thrift wears."
        
       },
       {
         step: "Step 3",
-        text: "Send a message of what you want and delivery details at least a day before it is needed",
+        text: "Set a reminder for the particular day and time, check the wears as they are being posted",
         
       },
       {
         step: "Step 4",
-        text: "Make payment",
+        text: "Send a message immediately to perrez if you find a wear of your choice and size and await her response on the availability of the wear",
         
       },
       {
         step: "Step 5",
-        text: "Sit back, relax while we handle the rest",
+        text: "If available, make payment immediately and send delivery details",
         
       },
     ],
