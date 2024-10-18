@@ -22,13 +22,13 @@ export default function HeroSection() {
 
                  
                      <p className="text-lg font-light  2xl:text-xl">
-                     Explore a wide range of premium groceries and stylish clothing, all in one place. Whether you're stocking up on fresh produce or revamping your wardrobe, enjoy unbeatable prices and fast, reliable delivery across Nigeria.
+                     Explore a wide range of premium groceries and stylish clothing, all in one place. Whether you&apos;re stocking up on fresh food or revamping your wardrobe, enjoy unbeatable prices and fast, reliable delivery across Nigeria.
                      </p>
                  
 
                      <Link href="/contact">
             <div
-              className={`btn  mt-4 bg-black hover:bg-primary hover:border hover:border-2 hover:border-secondary rounded-full w-fit text-sm text-white px-7 py-3 font-normal capitalize
+              className={`btn  mt-4 bg-black hover:bg-primary hover:border-2 hover:border-secondary rounded-full w-fit text-sm text-white px-7 py-3 font-normal capitalize
               }`}>
               Contact Us
               </div>

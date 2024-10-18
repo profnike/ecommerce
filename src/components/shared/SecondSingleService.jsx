@@ -14,11 +14,11 @@ export default function SecondSingleService({firstParag,secondParag,steps,image,
 
       <div className=" h-1 w-24 bg-primary"></div> 
       </div>
-        <div className="text-center w-[80%] md:w-[70%] mx-auto mb-14">
+        <div className="text-center w-[80%] md:w-[70%] mx-auto mb-10 md:mb-14">
           <p className="mb-2">{firstParag}</p>
         <p>{secondParag}</p>
         </div>
-        <div className="max-w-[85%] mx-auto mb-14">
+        <div className="max-w-[85%] mx-auto mb-10 md:mb-14">
         <div className={`grid gap-6 justify-between w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ${"lg:grid-cols-4"}`}>
         {steps && steps?.map((serviceSteps, i) => (
           <motion.div

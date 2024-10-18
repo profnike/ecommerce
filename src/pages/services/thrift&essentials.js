@@ -15,8 +15,8 @@ export default function Plated() {
 
       <div className=" h-1 w-24 bg-primary"></div> 
       </div> */}
-      <p className="text-center w-[80%] md:w-[60%] mx-auto mb-14">
-      Looking for unique, stylish, and affordable fashion? You've come to the right place! At [Vendor Name], we curate the best thrift finds to keep you ahead of the fashion game without breaking the bank. Our collection of pre-loved clothing is handpicked for its quality, trendiness, and sustainability—so you can look great while making eco-friendly choices.</p>
+      <p className="text-center w-[80%] md:w-[60%] mx-auto mb-10 md:mb-14">
+      Looking for unique, stylish, and affordable fashion? You&apos;ve come to the right place! At [Vendor Name], we curate the best thrift finds to keep you ahead of the fashion game without breaking the bank. Our collection of pre-loved clothing is handpicked for its quality, trendiness, and sustainability—so you can look great while making eco-friendly choices.</p>
      
       <div className="mx-auto  max-w-[85%] ">
 

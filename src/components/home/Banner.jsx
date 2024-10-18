@@ -13,10 +13,10 @@ export default function Banner () {
       </div>
       <div className="h-[300px] max-w-[90%] lg:max-w-[80%] mx-auto flex justify-center gap-6 md:w-1/2  ">
         <div className="w-full  text-primary py-10 flex justify-center md:justify-start lg:justify-center items-center">
-          <div className="space-y-3 text-center text-left p-3">
+          <div className="space-y-3  text-left p-3">
             {/* <p className="uppercase text-xs">START A PROJECT</p> */}
             <h2 className="font-bold text-4xl text-primary">
-            We've Got You Covered  <span className="text-secondary">.</span>
+            We&apos;ve Got You Covered  <span className="text-secondary">.</span>
             </h2>
             <p className="pb-5 text-xl text-center">
             Feed Your Appetite,Dress Your Best.

@@ -1,7 +1,7 @@
 export default function Servicesheader ({ bgImage, upperText, lowerText, service })  {
     return (
        
-       <div style={{'--image-url': `url(${bgImage})`}} className='bg-[image:var(--image-url)] bg-no-repeat w-full bg-cover bg-center mb-14 '>
+       <div style={{'--image-url': `url(${bgImage})`}} className='bg-[image:var(--image-url)] bg-no-repeat w-full bg-cover bg-center mb-10 md:mb-14 '>
    
 
        

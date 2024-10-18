@@ -5,7 +5,7 @@ export default function SingleService({title,firstParagraph, secondParagraph,i, 
   
   
     return (
-    <div className="mb-14">
+    <div className="mb-10 md:mb-14">
 <h2 className="text-xl md:text-3xl lg:text-3xl mb-4 md:mb-6 text-primary  ">{title}</h2>
 <div className="hidden md:flex w-3 h-3 bg-primary rounded-full b mx-auto"> </div>
       <div className={`flex flex-col-reverse justify-between  ${Odd(i)?"md:flex-row-reverse":"md:flex-row "}`} >

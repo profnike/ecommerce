@@ -10,9 +10,9 @@ export default function Footer  () {
       <footer className="bg-black">
             <div className="mx-auto  max-w-[85%]  py-10 font-light lg:py-14">
                <div className="section-container grid grid-cols-1 justify-between gap-6 md:grid-cols-2 lg:grid-cols-12 lg:gap-12">
-                  <div className="col-span-4 w-full text-sm font-light text-[#fdf9ee] md:pr-0 lg:pr-5">
-                     <Link href="/" className="inline-block">
-                        <img src="/images/Plogo.png" alt="company-logo" className="max-h-9 md:max-h-14" />
+                  <div className="col-span-4 w-full  text-sm font-light text-[#fdf9ee] md:pr-0 lg:pr-5">
+                     <Link href="/" className="inline-block rounded-md">
+                        <img src="/images/Plogo.png" alt="company-logo" className="max-h-9 md:max-h-14 rounded-md" />
                      </Link>
 
                      <p className="mb-6 mt-3 text-white ">
