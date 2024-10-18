@@ -88,12 +88,12 @@ export const services = [
  export const testimonialData = [
   {
     name: "Onalaja Adekemi",
-    text: "I’ve been a loyal customer of Perrez for over a year, and I am continually impressed by her quality and service. The food is always fresh, delicious, and delivered right on time. Attention to detail is amazing",
+    text: "I have been a loyal customer of Perrez for over a year, and I am continually impressed by her quality and service. The food is always fresh, delicious, and delivered right on time. Attention to detail is amazing",
     
   },
   {
     name: "Adelaja Olayemisi",
-    text: "Their clothing line is stylish and affordable, catering to all my fashion needs whether for casual outings or special occasions. The fabrics are high quality and the fit is always perfect. I’ve received so many compliments on the outfits I’ve bought from them!",
+    text: "Their clothing line is stylish and affordable, catering to all my fashion needs whether for casual outings or special occasions. The fabrics are high quality and the fit is always perfect. I have received so many compliments on the outfits I have bought from them!",
    
   },
 ];
@@ -159,8 +159,8 @@ export const brandSteps = [
 export const platedServices = [
   {
     title:"Delish Meals",
-    firstParagraph:"At Plated_ng, food is our specialty, and we’re here to satisfy your cravings with fresh, flavorful dishes delivered right to your door. From hearty traditional favorites to new culinary delights, we are dedicated to providing high-quality meals that you’ll love.",
-    secondParagraph:"We offer meal options for any time of the day—whether it's breakfast, lunch, or dinner. Custom meal packages can be created to suit your preferences. Plated_ng also provides the option to send food packages to your loved ones, complete with personalized, heartfelt notes. Simply follow these steps:",
+    firstParagraph:"At Plated_ng, food is our specialty, and we are here to satisfy your cravings with fresh, flavorful dishes delivered right to your door. From hearty traditional favorites to new culinary delights, we are dedicated to providing high-quality meals that you will love.",
+    secondParagraph:"We offer meal options for any time of the day—whether it is breakfast, lunch, or dinner. Custom meal packages can be created to suit your preferences. Plated_ng also provides the option to send food packages to your loved ones, complete with personalized, heartfelt notes. Simply follow these steps:",
     thirdParagraph:"At Plated_ng, we carefully prepare each meal with attention to detail, so we do not accept same-day delivery requests to ensure the highest quality in every order.",
     link:"/contact", 
     text:"Order Now",
@@ -198,8 +198,8 @@ export const platedServices = [
   },
   {
     title:"Culinary Trainings",
-    firstParagraph:"At Plated_ng, we believe anyone can become a great cook with the right guidance and passion. That’s why we offer periodic online culinary training designed to help you sharpen your cooking skills and discover the joy of creating delicious meals at home.",
-    secondParagraph:"Join us today, and let’s make every meal that you prepare an unforgettable experience!",
+    firstParagraph:"At Plated_ng, we believe anyone can become a great cook with the right guidance and passion. That is why we offer periodic online culinary training designed to help you sharpen your cooking skills and discover the joy of creating delicious meals at home.",
+    secondParagraph:"Join us today, and let us make every meal that you prepare an unforgettable experience!",
     thirdParagraph:"",
     link:"/contact", 
     text:"Join Now",
@@ -211,7 +211,7 @@ export const platedServices = [
   {
     title:"Event Planning",
     firstParagraph:"At Perrez, we believe that every event, no matter how small, deserves a personal touch and careful attention to detail. We specialize in planning intimate gatherings, from birthdays and family celebrations to and cozy get-togethers. Our goal is to make your vision come to life with seamless planning, creative design, and exceptional service.",
-    secondParagraph:"Whether you need help with venue selection, catering, decor, or all of the above, we’re here to take the stress out of event planning so you can focus on enjoying the moment.",
+    secondParagraph:"Whether you need help with venue selection, catering, decor, or all of the above, we are here to take the stress out of event planning so you can focus on enjoying the moment.",
     thirdParagraph:"",
     link:"/contact", 
     text:"Contact Us",
@@ -226,7 +226,7 @@ export const thriftServices = [
   {
     title:"Thrift Sales",
     firstParagraph:"We carefully select every item to ensure it meets our quality and style standards. From timeless classics to bold statement pieces, our inventory is packed with unique finds that are also affordable.",
-    secondParagraph:"We offer a wide range of styles, sizes, and categories to suit all tastes. Whether you're hunting for vintage dresses, trendy tops, chic jackets, or casual streetwear, we’ve got something for everyone. Simply follow these steps:",
+    secondParagraph:"We offer a wide range of styles, sizes, and categories to suit all tastes. Whether you are hunting for vintage dresses, trendy tops, chic jackets, or casual streetwear, we have got something for everyone. Simply follow these steps:",
     thirdParagraph:"",
     link:"/contact", 
     text:"Order Now",
@@ -264,8 +264,8 @@ export const thriftServices = [
   },
   {
     title:"Trainings",
-    firstParagraph:"At Plated_ng, we believe anyone can become a great cook with the right guidance and passion. That’s why we offer periodic online culinary training designed to help you sharpen your cooking skills and discover the joy of creating delicious meals at home.",
-    secondParagraph:"Join us today, and let’s make every meal that you prepare an unforgettable experience!",
+    firstParagraph:"At Plated_ng, we believe anyone can become a great cook with the right guidance and passion. That is why we offer periodic online culinary training designed to help you sharpen your cooking skills and discover the joy of creating delicious meals at home.",
+    secondParagraph:"Join us today, and let us make every meal that you prepare an unforgettable experience!",
     thirdParagraph:"",
     link:"/contact", 
     text:"Join Now",
