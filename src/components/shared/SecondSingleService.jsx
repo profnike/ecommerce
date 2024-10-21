@@ -15,8 +15,8 @@ export default function SecondSingleService({firstParag,secondParag,steps,image,
       <div className=" h-1 w-24 bg-primary"></div> 
       </div>
         <div className="text-left md:text-center w-[85%] md:w-[75%] lg:w-[70%] mx-auto mb-10 md:mb-14">
-          <p className="mb-2">{firstParag}</p>
-        <p>{secondParag}</p>
+          <p className="mb-2 text-[15px] md:text-base">{firstParag}</p>
+        <p className="text-[15px] md:text-base">{secondParag}</p>
         </div>
         <div className="max-w-[85%] mx-auto mb-10 md:mb-14">
         <div className={`grid gap-6 justify-between w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ${"lg:grid-cols-4"}`}>

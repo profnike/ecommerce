@@ -88,7 +88,7 @@ export const services = [
  export const testimonialData = [
   {
     name: "Onalaja Adekemi",
-    text: "I have been a loyal customer of Perrez for over a year, and I am continually impressed by her quality and service. The food is always fresh, delicious, and delivered right on time. Attention to detail is amazing",
+    text: "I have been a loyal customer of Perrez for over a year, and I am continually impressed by her quality and service. The food is always fresh, delicious, and delivered right on time. Attention to detail is amazing.",
     
   },
   {
