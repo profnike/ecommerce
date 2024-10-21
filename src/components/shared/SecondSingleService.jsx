@@ -14,7 +14,7 @@ export default function SecondSingleService({firstParag,secondParag,steps,image,
 
       <div className=" h-1 w-24 bg-primary"></div> 
       </div>
-        <div className="text-center w-[80%] md:w-[70%] mx-auto mb-10 md:mb-14">
+        <div className="text-left md:text-center w-[85%] md:w-[75%] lg:w-[70%] mx-auto mb-10 md:mb-14">
           <p className="mb-2">{firstParag}</p>
         <p>{secondParag}</p>
         </div>

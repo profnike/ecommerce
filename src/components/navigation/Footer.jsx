@@ -83,14 +83,14 @@ export default function Footer  () {
                      &copy; {year} Perrez. All rights reserved.
                   </p>
                   
-                  <p className=" text-[#fdf9ee] ">
+                  <p className=" text-[#fdf9ee] text-sm  ">
                     Designed and Developed by{" "}
                      <a
                         href="https://wa.me/2348099198567?text=Hello%20devKhad%2C%20I%20would%20like%20to%20build%20a%20website%2E
 "
                         target="_blank"
                         rel="noreferrer"
-                        className="inline text-base text-secondary">
+                        className="inline text-sm  text-secondary">
                         devKhad
                      </a>
                   </p>

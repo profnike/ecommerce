@@ -16,7 +16,7 @@ export default function Card  ({services:{title,text,image,path}}) {
        
         <div className="flex flex-col items-start  ">
         
-      <p className="text-[14px] ">{text}</p>
+      <p className="text-[15px] ">{text}</p>
       </div>
       {pathname==="/services"?
       <Link href={path} className="mt-4">
