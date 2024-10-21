@@ -33,6 +33,7 @@ export default function DefaultLayout({ children }) {
   return (
     <>
       <Meta title={pathname == "/" ? "" : pageTitle} />
+     
       <div className="mx-auto flex min-h-screen max-w-[1800px] flex-col justify-between ">
         <div className=" ">
         <NavBar/>
@@ -44,7 +45,7 @@ export default function DefaultLayout({ children }) {
           </div>
        
         </div>
-        
+       
         </>
   
   

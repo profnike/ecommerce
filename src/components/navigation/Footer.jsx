@@ -83,7 +83,7 @@ export default function Footer  () {
                      &copy; {year} Perrez. All rights reserved.
                   </p>
                   
-                  <p className="hidden text-[#fdf9ee] md:block">
+                  <p className=" text-[#fdf9ee] ">
                     Designed and Developed by{" "}
                      <a
                         href="https://wa.me/2348099198567?text=Hello%20devKhad%2C%20I%20would%20like%20to%20build%20a%20website%2E

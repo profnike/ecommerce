@@ -21,8 +21,8 @@ export default function HeroSection() {
                  
 
                  
-                     <p className="text-lg font-light  2xl:text-xl">
-                     Explore a wide range of premium groceries and stylish clothing, all in one place. Whether you&apos;re stocking up on fresh food or revamping your wardrobe, enjoy unbeatable prices and fast, reliable delivery across Nigeria.
+                     <p className="text-lg font-light  ">
+                     Explore a wide range of premium food and stylish clothing, all in one place. Whether you&apos;re stocking up on fresh food or revamping your wardrobe, enjoy unbeatable prices and fast, reliable delivery across Nigeria.
                      </p>
                  
 

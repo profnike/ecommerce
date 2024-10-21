@@ -5,7 +5,6 @@ import { navLinks,mediaLinks  } from "../../helpers/data.js";
 import { Bars4Icon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-//import MobileNavbar from "./";
 import MenuItem from "./MenuItem";
 import { Button, MobileNavbar } from "../index.js";
 

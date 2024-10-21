@@ -7,16 +7,16 @@ export default function Card  ({services:{title,text,image,path}}) {
 
   return (
     <div
-      className={`justify-between flex flex-col rounded-lg ${ pathname?.includes ("/services/")? "bg-primary text-white":"bg-white"}  hover:bg-primary p-8 hover:text-white  w-full ${pathname==="/services"?"shadow":""}  border border border-[#eaeaea]`}>
+      className={`justify-between flex flex-col rounded-lg ${ pathname?.includes ("/services/")? "bg-primary text-white":"bg-white"}  hover:bg-primary p-8 hover:text-white  w-full ${pathname==="/services"?"shadow":""}  border border-[#eaeaea]`}>
       
         <div
           className= "  rounded-lg flex  p-2  ">
-         <div>{image?<img src={image} alt={title} className="w-10 h-10 mr-4"/>:""}</div><span className=" font-bold">{title && title}</span>
+         <div>{image?<img src={image} alt={title} className="w-10 h-10 mr-4"/>:""}</div><span className=" text-base font-bold">{title && title}</span>
         </div>
        
         <div className="flex flex-col items-start  ">
         
-      <p className="text-sm">{text}</p>
+      <p className="text-[14px] ">{text}</p>
       </div>
       {pathname==="/services"?
       <Link href={path} className="mt-4">

@@ -15,7 +15,7 @@ export default function SingleService({title,firstParagraph, secondParagraph,i, 
         <div className="my-2">
           {stepData?.map(({step,text},id)=>(
             <div className="flex " key={id}>
-              <h3 className="fond-medium text-xl text-primary min-w-[70px]">{step}: </h3>
+              <h3 className="fond-medium text-primary min-w-[70px]">{step}: </h3>
               <p>{text}</p>
             </div>
 
