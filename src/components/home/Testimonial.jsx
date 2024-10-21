@@ -16,7 +16,7 @@ export default function Testimonial  () {
   };
   return (
     <div className="bg-primary bg-opacity-5 ">
-      <div className="max-w-[90%] lg:max-w-[80%] mx-auto p-5 md:p-20 md:py-28 ">
+      <div className="max-w-[90%] lg:max-w-[80%] mx-auto p-5 py-10 md:p-20 md:py-28 ">
         <div className="shadow-2xl rounded-2xl p-5 md:p-10 md:max-w-[80%] lg:max-w-[70%] m-auto bg-white z-0 ">
         <img src="/icons/quote.png" alt="" className="w-12 h-12 rounded-full text-red-300"/>
           {testimonialData.length && (

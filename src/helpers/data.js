@@ -54,7 +54,7 @@ export const footerLinks = [
 
 export const services = [
    {
-     title: "Plated ng",
+     title: "Plated_ng",
      text: "At Perrez we pride ourselves on using the finest ingredients to create meals that satisfy every palate.",
       image:"/images/Delish-dish.jpg",
       path:"/services/plated_ng"
