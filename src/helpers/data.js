@@ -93,7 +93,7 @@ export const services = [
   },
   {
     name: "Adelaja Olayemisi",
-    text: "Their clothing line is stylish and affordable, catering to all my fashion needs whether for casual outings or special occasions. The fabrics are high quality and the fit is always perfect. I have received so many compliments on the outfits I have bought from them!",
+    text: "Their clothing line is stylish and affordable, catering to all my fashion needs whether for casual outings or special occasions. The thrift items are high quality and the fit is always perfect. I have received so many compliments on the outfits I have bought from them!",
    
   },
 ];

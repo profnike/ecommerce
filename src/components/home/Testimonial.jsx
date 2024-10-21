@@ -21,7 +21,7 @@ export default function Testimonial  () {
         <img src="/icons/quote.png" alt="" className="w-12 h-12 rounded-full text-red-300"/>
           {testimonialData.length && (
              <div >
-      <span className="md:leading-7 text-black text-[15px] md:text-base  ">{testimony.text}</span>
+      <span className=" leading-4md:leading-7 text-black text-[15px] md:text-base  ">{testimony.text}</span>
 
       <div className="">
         <div className="">
