@@ -20,7 +20,7 @@ export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
          <Link href="/" >
                 <div
                   className={`${
-                    pageLink == "/home" && "text-accent font-semibold"
+                    pageLink == "/home" && "font-semibold"
                   } text-white text-xl  capitalize`}
                   onClick={() => setMenuOpen(false)}>
                   Home
@@ -32,7 +32,7 @@ export default function MobileNavBar  ({ pageLink, setMenuOpen })  {
               <Link href={path} key={i}>
                 <div
                   className={`${
-                    pageLink == path && "text-accent font-semibold"
+                    pageLink == path && " font-semibold"
                   } text-white text-xl  capitalize`}
                   onClick={() => setMenuOpen(false)}>
                   {title}

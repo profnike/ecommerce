@@ -79,11 +79,11 @@ export default function Footer  () {
 
             <div className="mx-auto  max-w-[85%] section-container items-center border-t-[0.5px] border-white py-6 font-light md:flex-row">
                <div className="text-center gap-2 text-sm">
-                  <p className="text-center text-[#fdf9ee]">
+                  <p className="text-center text-white">
                      &copy; {year} Perrez. All rights reserved.
                   </p>
                   
-                  <p className=" text-[#fdf9ee] text-sm  ">
+                  <p className=" text-white text-sm  ">
                     Designed and Developed by{" "}
                      <a
                         href="https://wa.me/2348099198567?text=Hello%20devKhad%2C%20I%20would%20like%20to%20build%20a%20website%2E
