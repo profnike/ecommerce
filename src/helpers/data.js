@@ -159,8 +159,8 @@ export const brandSteps = [
 export const platedServices = [
   {
     title:"Delish Meals",
-    firstParagraph:"At Food_ng, food is our specialty, and we are here to satisfy your cravings with fresh, flavorful dishes delivered right to your door. From hearty traditional favorites to new culinary delights, we are dedicated to providing high-quality meals that you will love.",
-    secondParagraph:"We offer meal options for any time of the day—whether it is breakfast, lunch, or dinner. Custom meal packages can be created to suit your preferences. Plated_ng also provides the option to send food packages to your loved ones, complete with personalized, heartfelt notes. Simply follow these steps:",
+    firstParagraph:"At Food_ng, creativity with meals is our specialty, and we are here to satisfy your cravings with fresh, flavorful dishes delivered right to your door. From hearty traditional favorites to new culinary delights, we are dedicated to providing high-quality meals that you will love.",
+    secondParagraph:"We offer meal options for any time of the day—whether it is breakfast, lunch, or dinner. Custom meal packages can be created to suit your preferences. Food_ng also provides the option to send food packages to your loved ones, complete with personalized, heartfelt notes. Simply follow these steps:",
     thirdParagraph:"At Food_ng, we carefully prepare each meal with attention to detail, so we do not accept same-day delivery requests to ensure the highest quality in every order.",
     link:"/contact", 
     text:"Order Now",
@@ -198,7 +198,7 @@ export const platedServices = [
   },
   {
     title:"Culinary Trainings",
-    firstParagraph:"At Plated_ng, we believe anyone can become a great cook with the right guidance and passion. That is why we offer periodic online culinary training designed to help you sharpen your cooking skills and discover the joy of creating delicious meals at home.",
+    firstParagraph:"At Food_ng, we believe anyone can become a great cook with the right guidance and passion. That is why we offer periodic online culinary training designed to help you sharpen your cooking skills and discover the joy of creating delicious meals at home.",
     secondParagraph:"Join us today, and let us make every meal that you prepare an unforgettable experience!",
     thirdParagraph:"",
     link:"/contact", 
@@ -262,16 +262,16 @@ export const thriftServices = [
 
     
   },
-  {
-    title:"Trainings",
-    firstParagraph:"At Plated_ng, we believe anyone can become a great cook with the right guidance and passion. That is why we offer periodic online culinary training designed to help you sharpen your cooking skills and discover the joy of creating delicious meals at home.",
-    secondParagraph:"Join us today, and let us make every meal that you prepare an unforgettable experience!",
-    thirdParagraph:"",
-    link:"/contact", 
-    text:"Join Now",
-    stepsData:"",
-    image:"/images/Banner-pix.jpg",
-    imageName:"Culinary class flyer",
+  // {
+  //   title:"Trainings",
+  //   firstParagraph:"At Food_ng, we believe anyone can become a great cook with the right guidance and passion. That is why we offer periodic online culinary training designed to help you sharpen your cooking skills and discover the joy of creating delicious meals at home.",
+  //   secondParagraph:"Join us today, and let us make every meal that you prepare an unforgettable experience!",
+  //   thirdParagraph:"",
+  //   link:"/contact", 
+  //   text:"Join Now",
+  //   stepsData:"",
+  //   image:"/images/Banner-pix.jpg",
+  //   imageName:"Culinary class flyer",
     
-  },
+  // },
 ]
