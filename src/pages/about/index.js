@@ -28,7 +28,7 @@ export default function About() {
      
       <div className="lg:w-1/2 mb-14 lg:mb-0 ">
             <p className="  ">
-               Nkem, the visionary behind Perrez, is a passionate entrepreneur with a deep love for both fashion and food. With an eye for style and a taste for quality, Nkem founded Perrez to offer a unique shopping experience that combines the latest trends in clothing with the finest food products.
+               Temi, the visionary behind Perrez, is a passionate entrepreneur with a deep love for both fashion and food. With an eye for style and a taste for quality, Temi founded Perrez to offer a unique shopping experience that combines the latest trends in clothing with the finest food products.
              </p>
 
                <p className="  mt-4">Lorezm ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -59,7 +59,7 @@ export default function About() {
       <div className="w-full lg:w-1/2 mb-4 lg:mb-0  ">
       <img src="/images/Banner-pix.jpg" alt="herosection-image" className="w-full "/>
       <div className="flex flex-col bg-black text-white font-bold  w-full text-center p-2 ">
-        <p>Nkem Adeboye</p>
+        <p>Temi Akinwale</p>
         <p className="text-secondary">Owner</p>
       </div>
       </div>

@@ -54,10 +54,10 @@ export const footerLinks = [
 
 export const services = [
    {
-     title: "Plated_ng",
+     title: "Food_ng",
      text: "At Perrez we pride ourselves on using the finest ingredients to create meals that satisfy every palate.",
       image:"/images/Delish-dish.jpg",
-      path:"/services/plated_ng"
+      path:"/services/food_ng"
    },
    {
     title: "Brand Booster",
@@ -159,9 +159,9 @@ export const brandSteps = [
 export const platedServices = [
   {
     title:"Delish Meals",
-    firstParagraph:"At Plated_ng, food is our specialty, and we are here to satisfy your cravings with fresh, flavorful dishes delivered right to your door. From hearty traditional favorites to new culinary delights, we are dedicated to providing high-quality meals that you will love.",
+    firstParagraph:"At Food_ng, food is our specialty, and we are here to satisfy your cravings with fresh, flavorful dishes delivered right to your door. From hearty traditional favorites to new culinary delights, we are dedicated to providing high-quality meals that you will love.",
     secondParagraph:"We offer meal options for any time of the day—whether it is breakfast, lunch, or dinner. Custom meal packages can be created to suit your preferences. Plated_ng also provides the option to send food packages to your loved ones, complete with personalized, heartfelt notes. Simply follow these steps:",
-    thirdParagraph:"At Plated_ng, we carefully prepare each meal with attention to detail, so we do not accept same-day delivery requests to ensure the highest quality in every order.",
+    thirdParagraph:"At Food_ng, we carefully prepare each meal with attention to detail, so we do not accept same-day delivery requests to ensure the highest quality in every order.",
     link:"/contact", 
     text:"Order Now",
     stepData:[
